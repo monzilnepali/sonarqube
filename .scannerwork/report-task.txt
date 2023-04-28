@@ -1,0 +1,6 @@
+projectKey=nodal-frontend
+serverUrl=http://localhost:9000
+serverVersion=9.6.0.59041
+dashboardUrl=http://localhost:9000/dashboard?id=nodal-frontend
+ceTaskId=AYK5qKA9ZYMNtnJCHr8K
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYK5qKA9ZYMNtnJCHr8K

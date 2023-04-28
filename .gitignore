@@ -1,0 +1,26 @@
+#!/bin/bash
+
+FE_PROJECT_KEY=sqp_2a799dcd8ea096e91a4c58d19927d89cba51ebfb
+BE_PROJECT_KEY=sqp_57d86bc0e55cb250cacb7dea5c51a02198001cd3
+
+FE_PATH=$HOME/Desktop/nodal/nodal-frontend
+BE_PATH=$HOME/Desktop/nodal/nodal-backend
+
+
+sonar-scanner \
+  -Dsonar.projectKey=Frontend \
+  -Dsonar.projectBaseDir=$FE_PATH \
+  -Dsonar.sources=./src \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=$FE_PROJECT_KEY
+
+echo "Frontend codebase scanner completed"
+
+sonar-scanner \
+  -Dsonar.projectKey=Backend \
+  -Dsonar.projectBaseDir=$BE_PATH \
+  -Dsonar.sources=./src \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=$BE_PROJECT_KEY
+
+echo "Backend codebase scanner completed"
