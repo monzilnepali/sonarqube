@@ -14,3 +14,4 @@
    1. Update project_key and project directory in `sonarqube-start.sh`
    2. run `sonarqube-start.sh`
    3. check sonarqube app
+# sonarqube
