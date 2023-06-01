@@ -4,7 +4,7 @@
    ```bash
    ./sonarqube-init.sh
    ```
-   > This step is require for first time only. To run sonarqube server next time run `docker start -a nodal-sonarqube`
+   > This step is require for first time only. To run sonarqube server next time run `run.sh`
 2. Setup sonarqube
    1. Visit http://localhost:9000
    2. Setup credentials

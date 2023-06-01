@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # create a directory on host
 path1=$(pwd)/sonarqube-data
 path2=$(pwd)/server_data/sonarqube/extensions
